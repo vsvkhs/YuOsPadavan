@@ -9,7 +9,7 @@ include $(ROOTDIR)/user/shared/boards.mk
 PROJECT_HOME_URL="https:\/\/bitbucket.org\/padavan\/rt-n56u\/"
 PROJECT_HOME_URL_MOD="https:\/\/github.com\/hanwckf\/rt-n56u\/"
 
-LABEL_COPYRIGHT_TEXT='© 2011-2022 <a href="https:\/\/padavan\/rt-n56u" target="blank">Padavan<\/a> \& N56U project community \& by">hanwckf<\/a>'
+LABEL_COPYRIGHT_TEXT='©  <\/a> \Padavan& N56U project community \<\/a>'
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
 DWURL_PATTERN=s/ZVDWURLVZ/$(PROJECT_HOME_URL)/g
